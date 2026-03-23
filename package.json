@@ -1,6 +1,6 @@
 {
   "name": "pinlyjs",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A package for tracking score for 5 pin bowling",
   "homepage": "https://github.com/gavinabu/pinlyjs#readme",
   "bugs": {
