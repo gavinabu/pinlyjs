@@ -2,10 +2,22 @@
   "name": "pinlyjs",
   "version": "0.1.0",
   "description": "A package for tracking score for 5 pin bowling",
+  "homepage": "https://github.com/gavinabu/pinlyjs#readme",
+  "bugs": {
+    "url": "https://github.com/gavinabu/pinlyjs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinabu/pinlyjs.git"
+  },
   "license": "MIT",
   "author": "Gavin Abu-Zahra",
   "type": "module",
   "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "build": "tsc",
     "test": "node test",
