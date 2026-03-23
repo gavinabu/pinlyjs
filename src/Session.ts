@@ -1,0 +1,16 @@
+import Game from "./Game.js";
+
+export default class Session {
+  games: Game[] = [];
+  id: string;
+
+  constructor(uuid?: string) {
+    this.id = uuid || crypto.randomUUID();
+  }
+
+  newGame() {
+    const g = new Game(this, `${this.id}_${this.games.length + 1}`)
+    this.games.push(g);
+    return g;
+  }
+}
